@@ -104,13 +104,14 @@ Complete the exercise in the space below:
 */
 
 const maxOfThree = (x, y, z) => {
-    if (x >= y && x >= z) {
-        return x
-    } else if (y >= x && y >= z) {
-        return y
-    } else {
-        return z
-    }
+    // if (x >= y && x >= z) {
+    //     return x
+    // } else if (y >= x && y >= z) {
+    //     return y
+    // } else {
+    //     return z
+    // }
+    return Math.max(x, y, z) //as suggested by Jurgen Stevens
 }
 
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
